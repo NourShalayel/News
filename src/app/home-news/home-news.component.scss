@@ -1,0 +1,230 @@
+@media screen  and (min-width: 800px) and (max-width: 1500px) {
+  .example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+  }
+
+  .title-sport{
+   font-weight: bold;
+    font-size: 16px;
+  }
+  .example-full-width {
+    width: 100%;
+  }
+  .post {
+    margin-left: 150px;
+    width: 60%;
+    margin-top: 40px;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+  .slider {
+    width: 1000px;
+    height: 240px;
+    text-align: center;
+    margin-left: 150px;
+    margin-top: 50px;
+    padding: 0;
+  }
+
+  //img {
+  //  width: 70%;
+  //  height: 350px;
+  //  border-radius: 10px;
+  //  margin-bottom: 10px;
+  //}
+
+  .new {
+    img {
+      width: 95%;
+      margin: 16px;
+      justify-content: center;
+    }
+
+    width: 65%;
+    background-color: #f5f4f4;
+    border-radius: 15px;
+  }
+
+  .sport {
+    width: 20px;
+  }
+  .videoNews {
+    height: 100%;
+    width: 70%;
+  }
+  .title {
+    margin-top: 60px;
+  }
+  //.vid{
+  //  background-color: #FFFFFF;
+  //  border-radius: 20px;
+  //}
+
+  .second {
+    margin-left: 15px;
+    margin-bottom: 10px;
+    height: 80%;
+    border-radius: 10px;
+    width: 330px;
+
+  }
+  .seeAll {
+    list-style: none;
+    text-decoration: none;
+    color: #858080;
+    margin-left: 540px;
+
+    font-size: 16px;
+
+    &:hover {
+      color: #ff5000;
+      font-size: 17px;
+    }
+  }
+  .icon {
+    color: #ababab;
+    width: 24px;
+    height: 20px;
+    margin-left: 20px;
+    size: 18px;
+  }
+  mat-icon {
+    font-size: 23px;
+  }
+  .icons {
+    //margin-left: 350px;
+    //display: inline-block;
+    //flex-direction: row;
+    display: flex;
+    //align-items: center;
+    justify-content: end;
+    margin: 10px;
+  }
+
+  .sports {
+    width: 35%;
+    margin-left: 10px;
+  }
+
+  .sportNews {
+    background-color: #f5f4f4;
+    border-radius: 15px;
+    padding: 24px;
+    height: 220px;
+  }
+
+  .singleNews{
+
+  }
+  span {
+    margin-right: 20px;
+  }
+
+
+  .seePolicy {
+    list-style: none;
+    text-decoration: none;
+    color: #858080;
+    margin-inline-start: 120px;
+    font-size: 16px;
+
+    &:hover {
+      color: #ff5000;
+      font-size: 17px;
+    }
+  }
+
+  //.policy {
+  //  width: 35%;
+  //  margin-left: 10px;
+  //  background-color: #f5f4f4;
+  //  border-radius: 15px;
+  //  padding: 24px;
+  //  height: 190px;
+  //}
+
+  .singlePolicy {
+    display: flex;
+    img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+    }
+  }
+
+
+}
+
+.seeSport {
+  list-style: none;
+  text-decoration: none;
+  color: #858080;
+  margin-inline-start: 120px;
+  font-size: 16px;
+
+  &:hover {
+    color: #ff5000;
+    font-size: 17px;
+  }
+}
+//new css
+.card{
+  width: 12rem;
+  height: 30rem ;
+  margin-bottom: 30px ;
+  margin-inline-start: 20px;
+  border-radius: 10px;
+}
+img {
+  width: 95%;
+  height: 60%;
+  margin: 15px;
+  border-radius: 10px;
+}
+.icon {
+  color: #ababab;
+  width: 24px;
+  height: 20px;
+  size: 18px;
+  margin-right: 15px;
+}
+.icons {
+  display: flex;
+  justify-content: end;
+  margin: 10px;
+}
+h4{
+  margin-left: 22px ;
+  font-family: SansSerif;
+  &:hover{
+    color: #817e7e;
+  }
+}
+h6 {
+  padding-top: 10px;
+  padding-left: 12px;
+  &:hover{
+    font-size: 15px;
+  }
+}
+.card{
+  &:hover{
+    box-shadow: 0 0 0.25rem grey;
+  }
+}
+
+.testVideo {
+  //margin-left: 15px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  margin-left: 28px;
+}
+
+.policy-text{
+  font-size: 14px ;
+  padding-top: 20px;
+}
